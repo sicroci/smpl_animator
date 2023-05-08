@@ -1,0 +1,9 @@
+SMPLAnimationFile: sim.yaml
+OpenDRParameters:
+  Camera:
+  Lights:
+    - LightType: LambertianPointLight
+      LightPosition: 0,0,0
+    - LightType: SimoneLight
+      LightPosition: 1,1,1
+FrameFilename: /body_reconstruction/smpl_animator/data/animations/debug/
